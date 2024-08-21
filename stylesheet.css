@@ -1,0 +1,197 @@
+.indexBody{
+    background-color: #800000;
+}
+
+.contentBody{
+    background-color: #982B1C;
+}
+
+.messageBody{
+    background-color: #1E201E;
+}
+
+.poemBody{
+    background-color: #1E201E;
+}
+h1{
+    color: white;
+    font-size: 75px;
+    text-align: center;
+    letter-spacing: 10px;
+    font-family: "Bebas Neue";
+    line-height: 20px;
+}
+
+.main {
+    width: 300px;
+    height: 400px;
+    background-color: #F2E8C6;
+    position: absolute;
+    top: 150px;
+    left: 600px;
+    border-radius: 20px;
+}
+
+.box{
+    width: 300px;
+    height: 400px;
+    background-color: #F2E8C6;
+    position: absolute;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.box:hover{
+    transform: scale(1.1);
+    z-index: 2;
+}
+.container{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    background-color: whitesmoke;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    left:0px;
+    top: 0px;
+    display: block;
+}
+
+#box1  {
+    top: 150px;
+    left: 150px;
+}
+
+#box2 { 
+    top: 150px;
+    left: 600px;
+}
+
+#box3 {
+    top: 150px;
+    left: 1050px;
+}
+
+.button{
+    width: 170px;
+    height: 40px;
+    position: absolute;
+    border-radius: 15px;
+}
+
+#exit{
+    top: 600px;
+    left: 670px;
+    background-color: whitesmoke;
+    color: #982B1C;
+}
+
+#clickMe{
+    top: 470px;
+    left: 670px;
+    background-color: whitesmoke;
+}
+
+#img1{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    top: 150px;
+    left: 600px;
+}
+
+.quote1{
+    color: white;
+    position: absolute;
+    text-align: left;
+    top: 80px;
+}
+
+#q1{
+    left: 160px;
+}
+
+#q2{
+    left: 615px;
+}
+
+#q3{
+    left: 1070px;
+}
+
+h2{
+   line-height: 700px;
+   font-family: Anton, "Open Sans";
+   color: #982B1C;
+   position: absolute;
+   top: -15px;
+   left: 20px;
+   letter-spacing: 3px;
+}
+
+.main_div{
+    text-align: center;
+    color: white;
+    margin-top: 150px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.main_div h1{
+    font-size: 40px;  
+    color: white; 
+}
+
+.main_div button{
+    width: 170px;
+    height: 40px;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+.poem{
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.poem h1{
+    font-size: 40px;
+    left: 100px;
+    top: 50px;
+    text-align: center;
+    margin-left: 50px;
+}
+
+.poem button {
+    width: 170px;
+    height: 40px;
+    border-radius: 15px;
+    margin-top: 20px; 
+    margin-left: 50px;
+}
+
+.container{
+    background: linear-gradient(45deg, #d2001a, #7462ff, #f48e21, #23d5ab);
+    background-size: 300% 300%;
+    animation: color 12s ease-in-out infinite;
+}
+
+@keyframes color{
+    0%{
+        background-position: 0 50%;;
+    }
+
+    5%{
+        background-position: 100 50%;;
+    }
+
+    10%{
+        background-position: 0 50%;;
+    }
+}
